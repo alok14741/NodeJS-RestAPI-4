@@ -7,7 +7,6 @@ var csv = require('fast-csv');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
-var port = 9000;
 
 var databaseFile = "./bank_branches.csv";
 
